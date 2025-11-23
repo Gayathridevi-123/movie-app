@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+🎬 TMDB Movie App – React + TailwindCSS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A beautiful and modern movie browsing application built using React, TMDB API, Context API, and TailwindCSS.
+Users can explore popular movies, search for any movie, filter their watchlist by genre, and save/remove movies effortlessly.
 
-## Available Scripts
+🚀 Features
+🔍 Search Movies
 
-In the project directory, you can run:
+Live search functionality
 
-### `npm start`
+Fetches results dynamically using TMDB Search API
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Smooth UI with blurred-glass search bar
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🎞️ Popular Movies
 
-### `npm test`
+Displays trending and popular movies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Pagination included (Next / Previous)
 
-### `npm run build`
+❤️ Watchlist System
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Add or remove any movie to your Watchlist
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Uses Context API to store data globally
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Syncs across the whole app instantly
 
-### `npm run eject`
+🎭 Genre Filter
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Filter your watchlist based on genres
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Fetches genre list from TMDB
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Fully dynamic genre dropdown
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🖼️ Beautiful UI
 
-## Learn More
+TailwindCSS powered
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Glassmorphism effects
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Smooth hover animations
 
-### Code Splitting
+Clean, modern layout
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+🛠️ Tech Stack
 
-### Analyzing the Bundle Size
+React.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Tailwind CSS
 
-### Making a Progressive Web App
+TMDB API
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+React Icons
 
-### Advanced Configuration
+React Router
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Context API
